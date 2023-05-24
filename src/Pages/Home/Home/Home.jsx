@@ -5,6 +5,7 @@ import ChefFood from "../ChefFood/ChefFood";
 import Contact from "../Contact/Contact";
 import Featured from "../Featured/Featured";
 import PopularMenu from "../PopularMenu/PopularMenu";
+import Testimonials from "../Testimonials/Testimonials";
 
 
 
@@ -18,6 +19,7 @@ const Home = () => {
          <Contact></Contact>
          <ChefFood></ChefFood>
          <Featured></Featured>
+         <Testimonials></Testimonials>
         </div>
     );
 };

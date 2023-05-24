@@ -51,7 +51,6 @@ const Category = () => {
             </SwiperSlide>
        
       </Swiper>
-
         </section>
     );
 };
