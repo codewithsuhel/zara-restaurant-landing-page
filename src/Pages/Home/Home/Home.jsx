@@ -15,7 +15,7 @@ const Home = () => {
         <div>
          <Helmet>
                 <title>ZaRa Restaurant | Home</title>
-            </Helmet>
+         </Helmet>
          <Banner></Banner>
          <Category></Category>
          <AboutUs></AboutUs>
