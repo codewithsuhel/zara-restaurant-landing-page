@@ -5,10 +5,11 @@ import { AuthContext } from '../../providers/AuthProvider';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import Swal from 'sweetalert2';
+import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 
 const Login = () => {
 
-    const [disabled, setDisabled] = useState(true);
+    const [, setDisabled] = useState(true);
 
     const {signIn} = useContext(AuthContext);
     const navigate = useNavigate();
@@ -89,6 +90,7 @@ const Login = () => {
               </div>
             </form>
             <p className='text-center mb-10'> <small>New here ?<Link to="/signup" className="text-yellow-500 font-bold"> create a New Account</Link> </small> </p>
+            <SocialLogin></SocialLogin>
           </div>
         </div>
       </div>
